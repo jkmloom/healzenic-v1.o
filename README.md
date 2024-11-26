@@ -21,6 +21,3 @@ This repository is the heart of HealZenic's scientific backbone, combining open 
 
 **Security Note**: All algorithms prioritize user privacy and do not rely on or store sensitive user data.  
 
----
-
-Together, let's redefine health tracking through innovation and collaboration. 😊
