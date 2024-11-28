@@ -8,4 +8,4 @@ Developed by three students from the ABSS Institute of Technology, Meerut, this 
 - **Saurabh Kumar Mishra**  
 - **Pankaj Kumar Ray**
 
-Other part of the project: https://github.com/jkmjatin/HealZenic
+Other part of the project: https://github.com/aarzooray/HealZenic
