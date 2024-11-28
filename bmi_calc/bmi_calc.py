@@ -1,3 +1,7 @@
+# Code under project Healzenic
+# Developer: Jatin Kumar Mehta
+# Team Members (Sharing Code): Saurabh Kumar Mishra & Pankaj Kumar Ray
+
 def calculate_bmi(weight, height_cm):
     """Calculate BMI and interpret its category, with height in centimeters."""
     try:
