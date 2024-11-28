@@ -16,7 +16,7 @@ The recommended **daily water intake** varies depending on age, gender, activity
 
 #### **By Weight (General Rule):**
 \[
-\text{Water Intake (liters/day)} = Weight (kg)/30
+Water Intake (liters/day) = Weight (kg)/30
 \]
 - Example: A person weighing 60 kg should drink **2 liters/day**.
 
