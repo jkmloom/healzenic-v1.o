@@ -19,7 +19,7 @@ Despite being a quick prototype, it was **shortlisted as a finalist** and secure
 ---
 
 ## 🚀 Experience the Project
->👉 [Click here to try it out](#) *(link to be added)*  
+> 👉 [Click here to try it out](#) *(link to be added)*  
 
 ---
 
@@ -32,3 +32,6 @@ We are now working on a **new version – Healzenic v2.0** (closed-source), a co
 The hackathon proved that our idea has **true potential**, and Healzenic 2.0 will take it to the next level.  
 
 ---
+
+## 📄 Documentation
+For more details, please have a look at the **documentation provided** in this repository.  
