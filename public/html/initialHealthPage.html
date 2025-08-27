@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- !Links Insertion -->
+
+    <link rel="stylesheet" href="/css/homepage.css">
+    <link rel="stylesheet" href="/css/weekPerformance.css">
+    <link rel="stylesheet" href="/css/initialHealthPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+
+    <title>HealZenic - Initial Health Page</title>
+</head>
+
+<body>
+
+    <main>
+        <header class="header">
+            <div class="header-logo">
+                <img src="https://res.cloudinary.com/aarzooray/image/upload/v1723847905/HealZenic/media/banner/bnnr5vfo4u1okwwobvpf"
+                    alt="Healzenic banner not displayed">
+            </div>
+
+            <div class="header-nav">
+                <i class="ri-menu-line"></i>
+            </div>
+        </header>
+        <div class="nav-items-container">
+            <span class="nav-items">
+
+                <a href="/homepage">Profile</a>
+            </span>
+            <!-- <span class="nav-items">
+
+                <a href="../reportPage/reportPage.html">Update Your Information</a>
+            </span> -->
+            <span class="nav-items" >
+
+                <a href="../weekPerformance/weekPerformance.html">Week Performance</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="../monthPerformancePage/monthPerformance.html">Month Performance</a>
+            </span>
+            <span class="nav-items" id="nav-item-active">
+
+                <a href="/initialhealth">Initial Health Report</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="/recommendation">Recommendation For You</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="/proposedfeatures">Proposed Features</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="/about">About Us</a>
+            </span>
+            <span class="nav-items">
+
+               
+                <form action="/delete" method="post">
+                    <input type="submit" value="Log Out">
+                </form>
+            </span>
+            <span class="nav-items " id="nav-item-delete">
+
+                <a href="/deleteaccount">Delete Account</a>
+            </span>
+            <!-- <span class="nav-items " id="nav-item-delete">
+
+                <a href="../deleteaccount/deleteaccount.html">Delete Account</a>
+            </span> -->
+        </div>
+        <div class="hero">
+            <div class="greet-container">
+                <div class="greet-container-left">
+                    <div class="got-Greeted-image">
+                       
+                    </div>
+
+                    <div class="got-Greeted-info">
+                        <div class="greet-hi-name">
+                            <span class="greet-hi-name-word"> Jatin Kumar Mehta</span>
+                        </div>
+                        <div class="greet-kese-ho">Here’s your initial health report!</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="highlights-container" id="ht-cont">
+                <div class="highlights-container-graph">
+
+
+                    <div class="graph-label-container">
+                        <div class="label-item-left">
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    BMI (Body Mass Index)
+                                </span>
+                            </div>
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    BMR (Basal Metabolic Rate)
+                                </span>
+                            </div>
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    WHTR (Waist-to-height Ratio)
+                                </span>
+                            </div>
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    Daily Water Intake
+                                </span>
+                            </div>
+                        </div>
+                        <div class="label-item-right">
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    Calorie Burn
+                                </span>
+                            </div>
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    Sleep Quality
+                                </span>
+                            </div>
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    Health Risk
+                                </span>
+                            </div>
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    Diet
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="data-disclaimer">
+                <span>The data below shows your initial condition, which will be used as a baseline to track
+                    improvements.</span>
+            </div>
+            <div class="graphs-container">
+                <div class="graphs-container-upper">
+                    <canvas id="graph-0" width="200" height="20"></canvas>
+                </div>
+                <div class="graphs-container-lower">
+                    <canvas id="graph-1" class="gpLower" width="200" height="20"></canvas>
+                    <canvas id="graph-2" class="gpLower" width="200" height="20"></canvas>
+                    <canvas id="graph-3" class="gpLower" width="200" height="20"></canvas>
+                    <canvas id="graph-4" class="gpLower" width="200" height="20"></canvas>
+                    <canvas id="graph-5" class="gpLower" width="200" height="20"></canvas>
+                    <canvas id="graph-6" class="gpLower" width="200" height="20"></canvas>
+                    <canvas id="graph-7" class="gpLower" width="200" height="20"></canvas>
+                    <canvas id="graph-8" class="gpLower" width="200" height="20"></canvas>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+        <footer>
+
+            <img src="https://res.cloudinary.com/aarzooray/image/upload/v1723847905/HealZenic/media/banner/bnnr5vfo4u1okwwobvpf"
+                alt="Healzenic banner not displayed">
+        </footer>
+
+    </main>
+
+
+    <!-- !JS Files Insertion -->
+
+    <script src="/js/initialHealthPage.js"></script>
+    <script src="/js/homepage.js"></script>
+    <script type="module" src="/js/parameterCalc.js"></script>
+
+
+
+
+</body>
+
+</html>

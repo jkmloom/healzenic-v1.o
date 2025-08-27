@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-font-family: "Josefin Sans", sans-serif;
+    --secondary-font-family: "Judson", serif;
+    ;
+}
+
+/* Header Section */
+
+.header{
+
+}
+
+/* Hero Section */
+
+#hero{
+    background-color: #FEFFF9;
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 0vh 22vw;
+}
+/* Header Section */
+header {
+    width: inherit;
+    height: 10vh;
+    background: #212F25;
+    display: flex;
+    align-items: center;
+    padding: 0vh 15vw;
+}
+
+header img {
+    width: 13vw;
+}
+    
+/* Page Heading- PageHead */
+.page-head{
+    display: flex;
+    flex-direction: column;
+    font-family: "Jost", sans-serif;
+/* border: 1px solid red; */
+margin: 3em 0em;
+}
+.page-head h1{
+    color: #212F25;
+    font-size: 3em;
+font-weight: 800;
+}
+.page-head p{
+   color: #212F25;
+   font-size: 1.5em;
+   /* font-weight: 900; */
+}
+.page-head p .relax{
+   color: #212F25;
+   font-weight: 900;
+}
+
+/* Personal Information */
+.personal-information{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.personal-information-head h2{
+  font-family: "Jost", sans-serif;
+  color:#212F25;
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.personal-information-details{
+    display: flex;
+
+}
+.personal-information-form {
+    display: flex;
+    width: 100%;
+    /* border: 1px solid red; */
+    flex-direction: column;
+}
+.personal-information-form-upper{
+    display: flex;
+    flex-direction: column;
+}
+.personal-information-form-upper input{
+    height: 3.263em;
+    background-color: #D9D9D9;
+    
+    border-radius: 1em;
+    outline: none;
+    color: #324738;
+    font-weight: 500;
+    padding-left: 2em;
+    border: none;
+    font-size: 1.25em;
+    margin: 0.4em 0em;
+}
+.personal-information-form-lower{
+    display: flex;
+
+    /* width: 100%; */
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.personal-information-form-lower input{
+    height: 3.263em;
+    background-color: #D9D9D9;
+    border-radius: 1em;
+    outline: none;
+    color: #324738;
+    font-weight: 500;
+    padding-left: 2em;
+    border: none;
+    width: 50%;
+    font-size: 1.25em;
+    margin: 0.4em 0em;
+}
+
+.personal-information-form-lower select{
+    width:48%;
+    height:3.263em;
+    font-size: 1.25em;
+    /* margin-left: 3em; */
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 1em;
+    padding: 0em 2em;
+    outline: none;
+    color: #324738;
+
+    
+    appearance: none; /* Removes the default dropdown arrow */
+    -webkit-appearance: none; /* For Safari */
+    -moz-appearance: none; /* For Firefox */
+    cursor: pointer;
+    
+
+}
+
+.personal-information-form-lower select::after {
+    content: "▼";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Makes the arrow unclickable */
+    color: #333;
+  }
+.personal-information-dp img{
+    width: 12.375em;
+    /* height: 12.375em; */
+    border-radius: 100%;
+    position: relative;
+    margin-right: 0.5em;
+    margin-top: 0.5em;
+transition: 0.3s;
+cursor: pointer;
+
+}
+input[type="file"]{
+    /* display: none; */
+}
+.personal-information-dp{
+    /* border: 2px solid green;z */
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding-top: 2em;
+/* align-items: center; */
+/* justify-content: center; */
+}
+
+.personal-information-dp input{
+    /* display: none; */
+    /* border: 2px solid red; */
+    
+    /* border-radius: 100%; */
+
+}
+
+
+/* Physical Measurement */
+.physical-measurement{
+    margin-top: 3em;
+    display: flex;
+    font-family: "Jost", sans-serif;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.physical-measurement-head{
+  font-size: 1.2em;
+}
+.physical-measurement-form{
+    display: flex;
+    
+
+}
+.physical-measurement-form input{
+    height: 3.263em;
+    background-color: #D9D9D9;
+    
+    border-radius: 1em;
+    outline: none;
+    width: 50%;
+  
+    color: #324738;
+    font-weight: 500;
+    padding-left: 2em;
+    border: none;
+    font-size: 1.25em;
+    margin: 0.4em 0.4em;
+}
+input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* For Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+/* LifeStyle information */
+
+.lifestyle-information, .health-related-data, .additional-data{
+    font-family: "Jost", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0em;
+}
+.lifestyle-information-head {
+    margin-bottom: 1.2em;
+}
+.lifestyle-information-head-text, .health-related-data-head,.additional-data-head{
+font-size: 2em;
+font-weight: 600;
+color: #212F25;
+}
+.lifestyle-information-head-subhead{
+    font-size: 1.25em;
+    color: #4A6151;
+}
+.lifestyle-information-form, .health-related-data-form-item,.additonal-data-form{
+    display: flex;
+    flex-direction: column;
+}
+.lifestyle-information-form-item select, .health-related-data-form-item select, .additional-data-form-item select,.additional-data-form-item input {
+    width:100%;
+    height:3.263em;
+    font-size: 1.25em;
+    /* margin-left: 3em; */
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 1em;
+    padding: 0em 2em;
+    outline: none;
+    color: #324738;
+    margin: 0.4em 0em;
+    border-radius: 1em;
+
+}
+.lifestyle-information-form-item input,.additional-data-form-item span
+{
+    height: 3.263em;
+display: flex;
+align-items: center;
+    background-color: #D9D9D9;
+    border-radius: 1em;
+    outline: none;
+    color: #324738;
+    font-weight: 500;
+    padding-left: 2em;
+    border: none;
+    width: 100%;
+    font-size: 1.25em;
+    margin: 0.4em 0em;
+}
+
+/* Create Report Button */
+.create-report{
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.create-report input{
+    background-color: #031E0A;
+    height: 3.688em;
+    width: 12.739em;
+    font-family: "Jost", sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 0.5em;
+    color: #A7B994;
+    transition-duration: 0.3s;
+}
+.create-report button:hover{
+    border: none;
+border:2px solid #031E0A;
+
+    background-color:  #212F25;
+    }
+
+.get-user-location{
+    cursor: pointer;
+    /* opacity: 0.9; */
+}
+/* Footer */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Horizontally centers the image */
+    align-items: center;    /* Vertically centers the image */
+    height: 16.313em;
+    background-color: #212F25;
+}
+
+footer img {
+    width: 25.875em;
+
+   
+}
+/* Label for FILE INPUT */
+input[type="file"] {
+    display: none;
+  }
+
+  /* Style the custom button */
+  .custom-file-label {
+
+   /* width: 11em; */
+   font-family: "Jost", sans-serif;
+   /* height: 11em; */
+   width: 3em;
+   height: 3em;
+   background-color: grey;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+   /* border: 1px solid red; */
+   
+   border-radius: 100%;
+   cursor: pointer;
+   font-size: 54px;
+}
+
+.custom-file-label:hover {
+    background-color: rgb(108, 106, 106);
+}
+
+/* Display the selected file name */
+.file-name {
+      font-family: "Jost", sans-serif;
+    /* margin-left: 10px; */
+    /* border: 1px solid red; */
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}

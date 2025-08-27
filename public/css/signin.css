@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+
+    /* padding: 0em 15em; */
+}
+/* Header Section */
+header{
+    width:inherit;
+    height: 10vh;
+    background: #212F25;
+    display: flex;
+    align-items: center;
+    padding: 0vh 15vw;
+
+
+    
+}
+header img{
+    width: 13vw;
+}
+
+/* Hero Section  */
+.hero{
+    width:inherit;
+    height: 90vh;
+    background-color: #fefff9;
+    padding: 5vw 15vw;
+    display: flex;
+    /* background-color: skyblue; */
+    margin-left: 1rem;
+}
+
+.hero > div{
+    /* background-color: red; */
+    width: 50%;
+    padding: 1v;
+}
+
+.hero .hero-left{
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 1vw 2vw 1vw 0vw;
+}
+
+ .hero-left-head3
+{
+    font-family: "Judson", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4.1em;
+    text-align: center;
+
+    margin-right: 5rem;
+}
+
+
+.hero-left-head1{
+    font-family: "Judson", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-size: 6em;
+    color:  #09160D;
+}
+.hero-left-head1 span:nth-last-child(odd)
+{
+    font-weight: 700;
+}
+
+.hero-left-msg{
+    
+    font-size: 1.4em;
+    font-family: "Josefin Sans", sans-serif;
+    border-left: 0.2em solid black;
+    padding:0.4em 0.5em ;
+}
+ 
+.hero-left-about-link{
+    width: 100%;
+    display: flex;
+    height: 5vh;
+    font-family: "Josefin Sans", sans-serif;
+    align-items: center;
+    justify-content: center;
+    color:#004D2F;
+    /* background-color: rebeccapurple; */
+}
+.hero-left-about-link a{
+font-size: 1.25em;
+text-decoration:none ;
+color: #004D2F;
+border-bottom: 2px solid #004D2F;
+}
+
+/* Hero Right  */
+.hero .hero-right{
+    width: 45%;
+  
+}
+
+.hero-right form{
+    background-color: #CFF6CF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2.25em;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+.login-form-head{
+    color: #111F0C;
+    font-size: 2.8em;
+    margin: 0vw 2vw;
+    font-family:"Judson", serif;
+    font-weight: 600;
+
+}
+
+.login-form-input-section{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 0vw 2vw;
+    width: 100%;
+    height: 36%;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7rem 0vw;
+}
+
+.login-form-input-section input {
+    /* border: 1px solid red; */
+    width: 21.35em;
+    height: 3.9em;
+    border-radius: 11px;
+    padding:0.4em 0.8em;
+    border: none;
+    outline: none;
+    background-color: #D4E8BD;
+    color: black;
+    margin: 0.5em 0em;
+
+    font-size: 1.1em;
+    font-weight: 530;
+}
+
+.login-form-input-section input::placeholder{
+    color: #000000cf;
+}
+
+
+.login-form-login-btn
+{
+    width: 100%;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
+.login-form-login-btn input{
+    width: 40%;
+    height: 3.4vw;
+    background-color: #031E0A;
+    color: #A7B994;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    border-radius:0.5rem;
+    /* padding: 0.10em 0.9em; */
+    font-family: "Josefin Sans", sans-serif;
+    transition-duration: 0.3s;
+}
+/* .login-form-login-btn a button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #A7B994;
+    background-color: #031E0A;
+    font-size: 1.2em;
+    font-family: "Josefin Sans", sans-serif;
+    transition-duration: 0.3s;
+    border-radius:0.5rem;
+} */
+.login-form-login-btn input:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.login-form-signup-link{
+    height: 06vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-form-signup-link span {
+
+    border-bottom: 2px solid #004D2F;
+}
+.login-form-signup-link span a{
+    padding-bottom: 3em;
+    color: #004D2F;
+    text-decoration: none;
+}
+
+.login-form-signup-link span:hover{
+    cursor: pointer;
+}

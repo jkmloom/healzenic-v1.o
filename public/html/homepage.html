@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- !Links Insertion -->
+
+    <!-- <link rel="stylesheet" href="/frontend/homepage/homepage.css"> -->
+    <link rel="stylesheet" href="/css/homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>HealZenic</title>
+</head>
+
+<body>
+
+    <main>
+        <header class="header">
+            <div class="header-logo">
+                <img src="https://res.cloudinary.com/aarzooray/image/upload/v1723847905/HealZenic/media/banner/bnnr5vfo4u1okwwobvpf"
+                    alt="Healzenic banner not displayed">
+            </div>
+
+            <div class="header-nav">
+                <i class="ri-menu-line"></i>
+            </div>
+        </header>
+        <div class="nav-items-container">
+            <span class="nav-items" id="nav-item-active">
+
+                <a href="#">Profile</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="/informationpanel">Update Your Information</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="../weekPerformancePage/weekPerformance.html">Week Performance</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="../monthPerformancePage/monthPerformance.html">Month Performance</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="/initialhealth">Initial Health Report</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="/recommendation">Recommendations for You</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="/proposedfeatures">Proposed Features</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="/about">About Us</a>
+            </span>
+            <span class="nav-items">
+
+
+                <form action="/delete" method="post">
+                    <input type="submit" value="Log Out">
+                </form>
+            </span>
+            <span class="nav-items " id="nav-item-delete">
+
+                <a href="/deleteaccount">Delete Account</a>
+            </span>
+        </div>
+        <div class="hero">
+            <div class="greet-container">
+                <div class="greet-container-left">
+                    <div class="got-Greeted-image">
+                       
+                    </div>
+
+                    <div class="got-Greeted-info">
+                        <div class="greet-hi-name">
+                            <span class="greet-hi-hi">Hi,&nbsp;</span><span class="greet-hi-name-word"> Jatin</span>
+                        </div>
+                        <div class="greet-kese-ho">How are you doing Today ?</div>
+                    </div>
+                </div>
+                <div class="greet-container-right">
+                    <span class="greet-container-right-score">
+                        <span class="got-score">690</span>
+                        <span class="full-score">/1000</span>
+                    </span>
+                    <span class="greet-container-score-label">
+                        <span class="score-label-text">Scored</span>
+                        <span class="score-label-day">Yesterday</span>
+                    </span>
+                    <span class="greet-container-emoji">
+                        <span class="greet-container-emoji-item">😄</span>
+                    </span>
+                </div>
+            </div>
+            <div class="calender-container">
+                <div class="calender-days">
+                    <span class="calender-days-name">Sun</span>
+                    <span class="calender-days-date">24</span>
+                    <span class="calender-days-emoji"> </span>
+                </div>
+
+                <div class="calender-days">
+                    <span class="calender-days-name">Mon</span>
+                    <span class="calender-days-date">25</span>
+                    <span class="calender-days-emoji">
+
+                    </span>
+                </div>
+                <div class="calender-days">
+                    <span class="calender-days-name">Tue</span>
+                    <span class="calender-days-date">26</span>
+                    <span class="calender-days-emoji"></span>
+                </div>
+                <div class="calender-days">
+                    <span class="calender-days-name">Wed</span>
+                    <span class="calender-days-date">27</span>
+                    <span class="calender-days-emoji"></span>
+                </div>
+                <div class="calender-days ">
+                    <span class="calender-days-name">Thu</span>
+                    <span class="calender-days-date">28</span>
+                    <span class="calender-days-emoji"> </span>
+                </div>
+                <div class="calender-days">
+                    <span class="calender-days-name">Fri</span>
+                    <span class="calender-days-date">29</span>
+                    <span class="calender-days-emoji"></span>
+                </div>
+                <div class="calender-days">
+                    <span class="calender-days-name">Sat</span>
+                    <span class="calender-days-date">30</span>
+                    <span class="calender-days-emoji"></span>
+                </div>
+
+
+            </div>
+            <div class="highlights-container">
+
+                <div class="highlights-container-head"><span>Highlights</span>
+                </div>
+
+                <div class="highlights-container-graph">
+                    <div  class="highlights-container-graph-today">
+
+                        <canvas id="myChart" width="500" height="380"></canvas>
+
+
+
+
+                    </div>
+
+                    <div class="highlights-container-graph-yesterday streak-info">
+                        <div class="streak-emoji">
+                            🔥
+                        </div>
+                        <div class="streak-days-no">
+                            <span id="streak-day">32</span>
+                            <span id="streak-day-label">Days</span>
+                        </div>
+                        <div class="streak-label">
+                            Streak
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="graph-label-container">
+                <div class="label-item-left">
+                    <div class="label-item">
+
+                        <span class="label-item-color"></span>
+
+                        <span class="label-item-text">
+                            BMI (Body Mass Index)
+                        </span>
+                    </div>
+                    <div class="label-item">
+
+                        <span class="label-item-color"></span>
+
+                        <span class="label-item-text">
+                            BMR (Basal Metabolic Rate)
+                        </span>
+                    </div>
+                    <div class="label-item">
+
+                        <span class="label-item-color"></span>
+
+                        <span class="label-item-text">
+                            WHTR (Waist-to-height Ratio)
+                        </span>
+                    </div>
+                    <div class="label-item">
+
+                        <span class="label-item-color"></span>
+
+                        <span class="label-item-text">
+                            Daily Water Intake
+                        </span>
+                    </div>
+                </div>
+                <div class="label-item-right">
+                    <div class="label-item">
+
+                        <span class="label-item-color"></span>
+
+                        <span class="label-item-text">
+                            Calorie Burn
+                        </span>
+                    </div>
+                    <div class="label-item">
+
+                        <span class="label-item-color"></span>
+
+                        <span class="label-item-text">
+                            Sleep Quality
+                        </span>
+                    </div>
+                    <div class="label-item">
+
+                        <span class="label-item-color"></span>
+
+                        <span class="label-item-text">
+                            Health Risk
+                        </span>
+                    </div>
+                    <div class="label-item">
+
+                        <span class="label-item-color"></span>
+
+                        <span class="label-item-text">
+                            Diet
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            <form class="today-container" method="post" action="/home/checklist" id="checkListForm">
+                <div class="today-container-head"><span>Today</span></div>
+                <div class="today-container-subhHead"><span>Be honest to yourself, don’t lie to the check list!</span>
+                </div>
+                <div class="today-container-items">
+                    <div class="today-container-item">
+                        <div class="today-container-item-action">
+                            Practice Meditation/ Yoga
+                        </div>
+                        <div class="ticker">
+                            <i class="ri-add-circle-fill ticker today-container-item-icon" id="check">
+                            </i>
+                            <input type="checkbox" name="practiseMeditationOrYoga"  class="checkInp">
+                        </div>
+                    </div>
+                    <div class="today-container-item">
+                        <div class="today-container-item-action">
+                            Drink Enough Water
+                        </div>
+                        <div class="ticker">
+                            <i class="ri-add-circle-fill ticker today-container-item-icon"></i>
+                            <input type="checkbox" name="drinkEnoughWater"  class="checkInp">
+                        </div>
+                    </div>
+                    <div class="today-container-item">
+                        <div class="today-container-item-action">
+                            Don’t Eat Unhealthy Food
+                        </div>
+                        <div class="ticker">
+                            <i class="ri-add-circle-fill ticker today-container-item-icon"></i>
+                            <input type="checkbox" name="eatUnhealthFood"  class="checkInp">
+                        </div>
+                    </div>
+                    <div class="today-container-item">
+                        <div class="today-container-item-action">
+                            Get Enough Sleep
+                        </div>
+                        <div class="ticker">
+                            <i class="ri-add-circle-fill ticker today-container-item-icon"></i>
+                            <input type="checkbox" name="enoughSleep"  class="checkInp">
+                        </div>
+                    </div>
+                    <div class="today-container-item today-container-item-exclusive">
+                        <div class="today-container-item-action">
+                            Social Interaction
+                        </div>
+                        <div class="ticker">
+                            <i
+                            class="ri-add-circle-fill ticker today-container-item-icon today-container-item-icon-exclusive"></i>
+                            <input type="checkbox" name="socialInteraction"  class="checkInp">
+                        </div>
+                    </div>
+                    <div class="today-container-item today-container-item-exclusive">
+                        <div class="today-container-item-action">
+                            Focus on Loosing/Gaining Weight
+                        </div>
+                        <div class="ticker">
+                            <i
+                            class="ri-add-circle-fill ticker   today-container-item-icon today-container-item-icon-exclusive"></i>
+                            <input type="checkbox" name="losingOrGainingWeight"  class="checkInp">
+                        </div>
+                    </div>
+                    <div class="today-container-item today-container-item-exclusive">
+                        <div class="today-container-item-action">
+                            Do Exercises (Moderate Level)
+                        </div>
+                        <div class="ticker">
+                            <i
+                            class="ri-add-circle-fill ticker today-container-item-icon today-container-item-icon-exclusive"></i>
+                            <input type="checkbox" name="doExercise"  class="checkInp">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div id="submissionBox">
+                    <input type="submit" value="Submit Checklist">
+                </div>
+                <div class="msgBox">
+                    <div class="msgBox-graphics">
+                        <span><i class="ri-checkbox-circle-line"></i></span>
+                    </div>
+                    <div class="msgBox-text">
+                        <div class="great">Great!</div>
+                        <div class="msg">You have already submitted your today's Check list.</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <footer>
+
+            <img src="https://res.cloudinary.com/aarzooray/image/upload/v1723847905/HealZenic/media/banner/bnnr5vfo4u1okwwobvpf"
+                alt="Healzenic banner not displayed">
+        </footer>
+
+    </main>
+
+
+    <!-- !JS Files Insertion -->
+    <script type="module" src="/js/homepage.js"></script>
+
+
+
+</body>
+
+</html>

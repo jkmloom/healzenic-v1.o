@@ -1,0 +1,172 @@
+.calender-container {
+    width: 75vw;
+    display: flex;
+    border-radius: 2.313em;
+    background-color: #FBFFE3;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    height: 11em;
+    /* border: 3px solid red; */
+}
+
+.calender-days {
+    width: 4.25em;
+    height: 8.18em;
+    display: flex;
+
+    flex-direction: column;
+    margin: 0.3em 2em;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.calender-days-name {
+    font-family: "Kameron", serif;
+    color: #4F4A4A;
+    font-size: 1.25em;
+    font-style: normal;
+}
+
+.calender-days-date {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 47.84px;
+    font-size: 2em;
+}
+
+.calender-days-emoji {
+    font-size: 3.5em;
+}
+
+.calender-days-active {
+    background-color: #F3FFA8;
+    height: inherit;
+    border-radius: 3em;
+    width: 5.125em;
+}
+
+
+.streak-info {
+
+    height: 21.375em;
+}
+
+.highlights-container {
+    /* border: 1px solid red; */
+
+    padding: 0em 12em;
+}
+
+.highlights-container-graph {
+    /* padding: 0; */
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* best Performance day */
+.best-performance-day{
+    display: flex;
+    padding: 0em 12em;
+    margin: 4em 0em;
+}
+.canaPie{
+    width:27.894em;
+    height:27.894em;
+    /* height:32.529em; */
+}
+.best-performacnce-description {
+    /* border: 1px solid green; */
+
+    display: flex;
+    font-family: "Jost", sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-performed-day-name {
+    font-size: 3em;
+
+    color: #894000;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.best-performed-day-label {
+    font-size: 2em;
+    font-weight: 700;
+    color: #4F2001;
+}
+
+.best-performed-day-msg {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.25em;
+    width: 60%;
+
+    color: #09160D;
+    text-align: center;
+}
+
+/* Performance of Week */
+.performance-week{
+    display: flex;
+    padding: 0em 12em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.performance-week-header{
+    
+}
+.performance-week-main-head{
+    color: #442000;
+    font-family: "Jost", sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+}
+.performance-week-subHead{
+    font-family:"Josefin Sans", sans-serif;
+    font-size: 1.25em;
+    color: #09160D;
+    font-weight: 700;
+}
+.performance-week-disclaimer{
+    font-family:"Josefin Sans", sans-serif;
+    font-size: 1.25em;
+font-weight: 500;
+margin-top: 1em;
+
+}
+.performance-week-charts{
+    display: flex;
+    flex-wrap: wrap;
+/* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    margin: 2em 0em;
+}
+.performance-week-charts-item{
+    background-color: #FAFFDC;
+    width: 31.5em;
+    padding: 0.5em 2em;
+    cursor: pointer;
+    height: 24.375em;
+    border-radius: 2.25em;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0.4em 0.4em;
+}
+.performance-week-charts-item canvas{
+    width: 26.125em;
+    /* border: 1px solid yellow; */
+    height: 26.813em;
+}

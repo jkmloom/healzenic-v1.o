@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- !Links Insertion -->
+
+    <link rel="stylesheet" href="../css/reportPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+
+    <title>Report - HealZenic</title>
+</head>
+
+<body>
+
+    <main>
+        <header class="header">
+
+            <img src="https://res.cloudinary.com/aarzooray/image/upload/v1723847905/HealZenic/media/banner/bnnr5vfo4u1okwwobvpf"
+                alt="Healzenic banner not displayed">
+        </header>
+        <form id="hero" action="/reportpage/userDetails" method="post" enctype="multipart/form-data">
+            <div class="page-head">
+                <h1>Let's Get Your Report Ready!</h1>
+                <p><span class="relax">Relax! </span><span>We don't share your data wtih any 3rd party.</span></p>
+            </div>
+
+
+            <div class="personal-information">
+                <div class="personal-information-head">
+                    <h2>Personal Information</h2>
+                </div>
+                <div class="personal-information-details">
+                    <div class="personal-information-dp">
+
+                       
+                        <input type="file" name="avatar" id="dp">
+                        <label for="dp" class="custom-file-label"> ➕</label>
+
+                        <!-- Display the selected file name -->
+                        <span class="file-name" id="fileName">No file chosen</span>
+                     
+
+                    </div>
+                    <div class="personal-information-form">
+                        <div>
+                            <div class="personal-information-form-upper">
+                                <input type="text" name="firstname" id="" placeholder="First Name">
+                                <input type="text" name="middlename" id="" placeholder="Middle Name">
+                                <input type="text" name="lastname" id="" placeholder="Last Name">
+                            </div>
+                            <div class="personal-information-form-lower">
+                                <input type="number" name="age" id="" placeholder="Age">
+
+                                <select name="gender" id="gender">
+                                    <option  value="" disabled selected>Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Not to say">Others</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Physical Measurement -->
+            <div class="physical-measurement">
+                <div class="physical-measurement-head">
+                    <h2>Physical Measurement</h2>
+                </div>
+                <div class="physical-measurement-form">
+                    <input type="number" name="height" id="height" placeholder="Height (cm)">
+                    <input type="number" name="weight" id="weight" placeholder="Weight (kg)">
+                </div>
+            </div>
+
+
+            <div class="lifestyle-information">
+                <div class="lifestyle-information-head">
+                    <div class="lifestyle-information-head-text">
+                        Lifestyle Information
+                    </div>
+                    <div class="lifestyle-information-head-subhead">Current Habits</div>
+                </div>
+                <div class="lifestyle-information-form">
+                    <span class="lifestyle-information-form-item">
+                        <select name="PhysicalActivityLevel" id="Physical-Activity">
+                            <option value="" disabled selected>Physical Activity (Level)</option>
+                            <option value="Sedentary">Sedentary</option>
+                            <option value="Lightly Active">Lightly Active</option>
+                            <option value="Moderately Active">Moderately Active</option>
+                            <option value="Very Active">Very Active</option>
+                            <option value="Highly Active">Highly Active</option>
+                        </select>
+                    </span>
+                    <span class="lifestyle-information-form-item">
+                        <select name="DietaryPreference" id="Dietary-Preference">
+                            <option value="" disabled selected>Dietary Preference</option>
+                            <option value="Vegetarian">Vegetarian</option>
+                            <option value="Non-Vegetarian">Non-Vegetarian</option>
+                            <option value="Vegan">Vegan</option>
+                        </select>
+                    </span>
+                    <span class="lifestyle-information-form-item">
+                        <input type="number" name="SleepDuration" id="sleep-duration"
+                            placeholder="Sleep Duration (Hours)">
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="health-related-data">
+                <div class="health-related-data-head">
+                    Health Related Data
+                </div>
+                <div class="health-related-data-form">
+                    <span class="health-related-data-form-item">
+                        <select name="SmokingHabits" id="Smoking-Habits">
+                            <option value="" disabled selected>Smoking Habits</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+
+                        </select>
+                    </span>
+                    <span class="health-related-data-form-item">
+                        <select name="AlcoholConsumption" id="DietaryAlcohol Consumption">
+                            <option value="" disabled selected>Alcohol Consumption</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+
+                        </select>
+                    </span>
+                    <span class="health-related-data-form-item">
+                        <select name="KnowAllergies" id="Know-Allergies">
+                            <option value="" disabled selected>Know Allergies or Dietary Restrictions</option>
+                            <option value="None" >None</option>
+                            <option value="Urticaria/ Hives" >Urticaria/ Hives</option>
+                            <option value="Allergetic to Ginger" >Allergetic to Ginger</option>
+                            <option value="Allergetic to Cat" >Allergetic to Cat</option>
+                            <option value="Allergetic to Red Meet" >Allergetic to Red Meet</option>
+                            <option value="Others" >Others</option>
+
+
+                        </select>
+                    </span>
+                    <span class="health-related-data-form-item">
+                        <select name="FamilyHistory" id="Family-History">
+                            <option value="" disabled selected>Family History of Major Illnesses</option>
+                            <option value="None">None</option>
+                            <option value="Diabetes">Diabetes</option>
+                            <option value="Hypertension">Hypertension</option>
+                            <option value="Blood Pressure">Blood Pressure</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </span>
+                </div>
+            </div>
+            <div class="additional-data">
+                <div class="additional-data-head">
+                    Additional Data
+                </div>
+                <div class="additonal-data-form">
+                    <span class="additional-data-form-item">
+
+                        <input type="number" name="WaistCircum" placeholder="Waist Circumference (cm)">
+                    </span>
+                    <span class="additional-data-form-item">
+                        <select name="StressLevel" id="Stress-Level">
+                            <option value="" disabled selected>Stress Level
+                                (Self Report Scale 1-5)
+                            </option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+
+                        </select>
+                    </span>
+
+                    <span class="additional-data-form-item">
+                        <!-- <span>Water Intake (Liters/ Day)</span> -->
+                        <input type="number" name="DailyWaterIntake" placeholder="Water Intake (Liters/ Day)">
+
+                    </span>
+                    <span class="additional-data-form-item get-user-location">
+                        <span>Current Accomodation Address</span>
+
+                    </span>
+                </div>
+            </div>
+
+            <div class="create-report">
+                <input type="submit" value="Create Report">
+            </div>
+        </form>
+
+        <footer>
+
+            <img src="https://res.cloudinary.com/aarzooray/image/upload/v1723847905/HealZenic/media/banner/bnnr5vfo4u1okwwobvpf"
+                alt="Healzenic banner not displayed">
+        </footer>
+
+    </main>
+
+
+    <!-- !JS Files Insertion -->
+    <script src="./reportpage.js" type="module"></script>
+
+
+    <script>
+        const fileInput = document.getElementById('dp');
+
+        const labeler = document.querySelector('.custom-file-label');
+        const fileName = document.getElementById('fileName');
+    
+        // Update the displayed file name when a file is selected
+        fileInput.addEventListener('change', (event) => {
+          const file = event.target.files[0];
+          fileName.textContent = file ? file.name : 'No file chosen';
+          labeler.textContent = "✔️";
+          
+
+        });
+      </script
+</body>
+
+</html>
