@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+    --primary-font-family: "Jost", sans-serif;
+    --secondary-font-family:"Josefin Sans",serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    width:inherit;
+    height: 10vh;
+    background: #212F25;
+    display: flex;
+    align-items: center;
+    padding: 0vh 15vw;   
+
+    justify-content: space-between;
+}
+
+header img{
+    width: 13vw;
+}
+
+.go-back-button{
+    font-family: var(--secondary-font-family);
+    color: #ADFADC;
+    font-size: 2.8vh;
+
+    margin-right: 2rem;
+    
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--primary-font-family);
+    margin-bottom: 12vh;
+}
+
+.intro-section-pic-container{
+    height: 50vh;
+    width: 60vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #212F25;
+    margin-top: 10vh;
+    border-radius: 2.625rem;
+
+}
+
+.intro-img{
+    height: 20.32vh;
+}
+
+.about-container{
+    width: 60vw;
+    margin-top: 10vh;
+
+}
+
+.question-heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+
+    margin-bottom: 2rem;
+}
+
+.decr-heading{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.desc-paragraphs-container p{
+    font-size: 1.5rem;
+
+}
+
+.bottom-container{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #212F25;
+   
+}
+
+
+.bottom-img{
+    height: 10.32vh;
+
+}
