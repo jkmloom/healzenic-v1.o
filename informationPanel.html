@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- !Links Insertion -->
+
+    <!-- <link rel="stylesheet" href="/src/frontend/css/reportPage/reportPage.css"> -->
+    <link rel="stylesheet" href="/css/informationPanel.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+
+    <title>Information Panel - HealZenic</title>
+</head>
+
+<body>
+
+    <main>
+        <header class="header">
+            <div class="header-logo">
+                <img src="https://res.cloudinary.com/aarzooray/image/upload/v1723847905/HealZenic/media/banner/bnnr5vfo4u1okwwobvpf"
+                    alt="Healzenic banner not displayed">
+            </div>
+            <div class="header-go-back">
+                <a href="/homepage"><span>Go Back</span></a>
+            </div>
+
+        </header>
+        <div class="hero">
+            <div class="page-head">
+                <h1>Information Panel</h1>
+                <p><span class="relax">Relax! </span><span>We don't share your data wtih any 3rd party.</span></p>
+            </div>
+
+
+            <div class="personal-information">
+                <div class="personal-information-head">
+                    <h2>Personal Information</h2>
+                </div>
+                <div class="personal-information-details">
+                    <div class="personal-information-dp">
+                        <div></div>
+                    </div>
+                    <div class="personal-information-form">
+                        <form action="
+                        #">
+                            <div class="personal-information-form-upper">
+                                <input type="text" name="firstname" id="firstname" disabled placeholder="First Name">
+                                <input type="text" name="middlename" id="middlename" disabled placeholder="Middle Name">
+                                <input type="text" name="lastname" id="lastname" disabled placeholder="Last Name">
+                            </div>
+                            <div class="personal-information-form-lower">
+
+                                <input type="number" name="age" id="age" placeholder="Age" disabled>
+
+                                <select name="gender" id="gender" disabled aria-valuemax>
+                                    <option value="" disabled selected>Gender</option>
+                                    <option value="Male" id="genderSelected" selected></option>
+                                    <option value="Female">Female</option>
+                                    <option value="Not to say">Others</option>
+                                </select>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Physical Measurement -->
+            <div class="physical-measurement">
+                <div class="physical-measurement-head">
+                    <h2>Physical Measurement</h2>
+                </div>
+                <div class="physical-measurement-form">
+                    <input type="text" name="height" id="height" placeholder="Height (cm)" disabled>
+                    <input type="text" name="weight" value="82 kgs" id="weight" disabled>
+                </div>
+            </div>
+
+
+            <div class="lifestyle-information">
+                <div class="lifestyle-information-head">
+                    <div class="lifestyle-information-head-text">
+                        Lifestyle Information
+                    </div>
+                    <div class="lifestyle-information-head-subhead">Current Habits</div>
+                </div>
+                <div class="lifestyle-information-form">
+                    <span class="lifestyle-information-form-item">
+                        <div class="labeler">
+                            <span>Physical Activity</span>
+                        </div>
+                        <div class="selector">
+                            <select name="Physical-Activity-Level" id="Physical-Activity" disabled>
+
+                                <option value="" disabled selected>Physical Activity (Level)</option>
+                                <option value="Male">Sedentary</option>
+                                <option value="Female" id="paSelected" disabled selected></option>
+                                <option value="Not to say">Highly Active</option>
+                            </select>
+                        </div>
+
+                    </span>
+                    <span class="lifestyle-information-form-item">
+                        <div class="labeler">
+                            <span>Dietary Preference</span>
+                        </div>
+                        <div class="selector">
+                            <select name="Dietary Preference" id="Dietary-Preference" disabled>
+                                <option id="project" value="" disabled selected>Dietary Preference</option>
+                                <option value="Male">Vegetarian</option>
+                                <option value="Female">Non-Vegeterian</option>
+                                <option value="Not to say">Vegan</option>
+                            </select>
+                        </div>
+
+                    </span>
+                    <span class="lifestyle-information-form-item">
+                        <div class="labeler">
+                            <span>Sleep Duration (Hours)</span>
+                        </div>
+                        <div class="selector">
+                            <input type="number" name="sleep-duration" id="sleep-duration"
+                                placeholder="Sleep Duration (Hours)" disabled>
+                        </div>
+
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="health-related-data">
+                <div class="health-related-data-head">
+                    Health Related Data
+                </div>
+                <div class="health-related-data-form">
+                    <span class="health-related-data-form-item">
+                        <div class="labeler">
+                            Smoking Habits
+                        </div>
+                        <div class="selector">
+
+                            <select name="Smoking-Habits" id="Smoking-Habits" disabled>
+                                <option value="" disabled>Smoking Habits</option>
+                                <option value="Male">Yes</option>
+                                <option value="Female" id="sh-selected" selected></option>
+
+                            </select>
+                        </div>
+                    </span>
+                    <span class="health-related-data-form-item">
+                        <div class="labeler">
+                            Alcohol Consumption
+                        </div>
+                        <div class="selector">
+                            <select name="Alcohol Consumption" id="DietaryAlcohol Consumption" disabled>
+                                <option value="" disabled>Alcohol Consumption</option>
+                                <option value="Male">Yes</option>
+                                <option value="Female" selected id=ac-selected></option>
+
+                            </select>
+                        </div>
+                    </span>
+                    <span class="health-related-data-form-item">
+                        <div class="labeler">
+                            Know Allergies or Dietary Restrictions
+                        </div>
+                        <div class="selector">
+                            <select name="Know-Allergies" id="Know-Allergies" disabled>
+                                <option value="" id="ka-selected" disabled selected></option>
+
+                            </select>
+                        </div>
+                    </span>
+                    <span class="health-related-data-form-item">
+                        <div class="labeler">
+                            Family History of Major Illnesses
+                        </div>
+                        <div class="selector">
+                            <select name="Family-History" id="Family-History" disabled>
+                                <option value="" id="fh-selected" disabled selected></option>
+                                <option value="Male">None</option>
+                                <option value="Female">Diabetes</option>
+                                <option value="Not to say">Hypertension</option>
+                                <option value="Not to say">Blood Pressure</option>
+                                <option value="Not to say">Others</option>
+                            </select>
+                        </div>
+
+                    </span>
+                </div>
+            </div>
+            <div class="additional-data">
+                <div class="additional-data-head">
+                    Additional Data
+                </div>
+                <div class="additonal-data-form">
+
+
+
+                    <span class="health-related-data-form-item">
+                        <div class="labeler">
+                            Waist Circumference
+                        </div>
+                        <div class="selector">
+                            <select name="Alcohol Consumption" id="DietaryAlcohol Consumption" disabled>
+
+                                <option value="Female" selected id=wc-selected></option>
+
+                            </select>
+                        </div>
+                    </span>
+                    <span class="health-related-data-form-item">
+                        <div class="labeler">
+                            Stress Level (Self Report Scale 1-5)
+                        </div>
+                        <div class="selector">
+                            <select name="Alcohol Consumption" id="DietaryAlcohol Consumption" disabled>
+
+                                <option value="Female" selected id=sl-selected></option>
+
+                            </select>
+                        </div>
+                    </span>
+                </div>
+               
+
+                <span class="health-related-data-form-item">
+                    <div class="labeler">
+                        Water Intake (Liters/ Day)
+                    </div>
+                    <div class="selector">
+                        <select name="Alcohol Consumption" id="DietaryAlcohol Consumption" disabled>
+                            <option value="" disabled>Alcohol Consumption</option>
+                            <option value="Male">Yes</option>
+                            <option value="Female" selected id=wt-selected></option>
+
+                        </select>
+                    </div>
+                </span>
+
+
+            </div>
+
+            <!-- <div class="create-report">
+                <button>Create Report</button>
+            </div> -->
+        </div>
+        <footer>
+
+            <img src="https://res.cloudinary.com/aarzooray/image/upload/v1723847905/HealZenic/media/banner/bnnr5vfo4u1okwwobvpf"
+                alt="Healzenic banner not displayed">
+        </footer>
+
+    </main>
+
+
+    <!-- !JS Files Insertion -->
+    <script src="/js/informationPanel.js" type="module"></script>
+
+
+</body>
+
+</html>

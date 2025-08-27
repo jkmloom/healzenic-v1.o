@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- !Links Insertion -->
+
+    <link rel="stylesheet" href="../homepage/homepage.css">
+   <link rel="stylesheet" href="./weekPerformance.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Judson:ital,wght@0,400;0,700;1,400&family=Kameron:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>HealZenic - Week Performance</title>
+</head>
+
+<body>
+
+    <main>
+        <header class="header">
+            <div class="header-logo">
+                <img src="https://res.cloudinary.com/aarzooray/image/upload/v1723847905/HealZenic/media/banner/bnnr5vfo4u1okwwobvpf"
+                    alt="Healzenic banner not displayed">
+            </div>
+
+            <div class="header-nav">
+                <i class="ri-menu-line"></i>
+            </div>
+        </header>
+        <div class="nav-items-container">
+            <span class="nav-items" >
+
+                <a href="../homepage/index.html">Profile</a>
+            </span>
+            <!-- <span class="nav-items">
+
+                <a href="../reportPage/reportPage.html">Update Your Information</a>
+            </span> -->
+            <span class="nav-items" id="nav-item-active">
+
+                <a href="../weekPerformance/weekPerformance.html">Week Performance</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="../monthPerformancePage/monthPerformance.html">Month Performance</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="../reportPage/reportPage.html">Initial Health Report</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="../recommendatationPage/recommendation.html">Recommendation For You</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="../proposedFeaturePage/proposedfeatures.html">Proposed Features</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="../aboutPage/aboutpage.html">About Us</a>
+            </span>
+            <span class="nav-items">
+
+                <a href="../loginPage/signin.html">Log Out</a>
+            </span>
+            <!-- <span class="nav-items " id="nav-item-delete">
+
+                <a href="../deleteAccountPage/deleteaccount.html">Delete Account</a>
+            </span> -->
+        </div>
+        <div class="hero">
+            <div class="greet-container">
+                <div class="greet-container-left">
+                    <div class="got-Greeted-image">
+                        <img src="https://res.cloudinary.com/aarzooray/image/upload/v1723847905/HealZenic/media/homepage/subject-image/ybewe8haxn14850x1h1c"
+                            alt="subject image not displayed">
+                    </div>
+
+                    <div class="got-Greeted-info">
+                        <div class="greet-hi-name">
+                            <span class="greet-hi-hi">Hi,</span><span class="greet-hi-name-word"> Jatin</span>
+                        </div>
+                        <div class="greet-kese-ho">Here's Your Week Performance ?</div>
+                    </div>
+                </div>
+                <div class="greet-container-right">
+                    <span class="greet-container-right-score">
+                        <span class="got-score">6090</span>
+                        <span class="full-score">/7000</span>
+                    </span>
+                    <span class="greet-container-score-label">
+                        <span class="score-label-text">Scored</span>
+                        <span class="score-label-day">Yesterday</span>
+                    </span>
+                    <span class="greet-container-emoji">
+                        <span class="greet-container-emoji-item"></span>
+                    </span>
+                </div>
+            </div>
+            <div class="calender-container">
+                <div class="calender-days">
+                    <span class="calender-days-name">Mon</span>
+                    <span class="calender-days-date">25</span>
+                    <span class="calender-days-emoji">
+                        
+                    </span>
+                </div>
+                <div class="calender-days">
+                    <span class="calender-days-name">Tue</span>
+                    <span class="calender-days-date">26</span>
+                    <span class="calender-days-emoji"></span>
+                </div>
+                <div class="calender-days">
+                    <span class="calender-days-name">Wed</span>
+                    <span class="calender-days-date">27</span>
+                    <span class="calender-days-emoji"> </span>
+                </div>
+                <div class="calender-days ">
+                    <span class="calender-days-name">Thu</span>
+                    <span class="calender-days-date">28</span>
+                    <span class="calender-days-emoji"> </span>
+                </div>
+                <div class="calender-days ">
+                    <span class="calender-days-name">Fri</span>
+                    <span class="calender-days-date">29</span>
+                    <span class="calender-days-emoji"></span>
+                </div>
+                <div class="calender-days">
+                    <span class="calender-days-name">Sat</span>
+                    <span class="calender-days-date">30</span>
+                    <span class="calender-days-emoji"></span>
+                </div>
+                <div class="calender-days">
+                    <span class="calender-days-name">Sun</span>
+                    <span class="calender-days-date">31</span>
+                    <span class="calender-days-emoji"> </span>
+                </div>
+
+            </div>
+            <div class="highlights-container">
+
+
+                <div class="highlights-container-graph">
+
+
+                    <div class="highlights-container-graph-yesterday streak-info">
+                        <div class="streak-emoji">
+                            🔥
+                        </div>
+                        <div class="streak-days-no">
+                            <span id="streak-day">32</span>
+                            <span id="streak-day-label">Days</span>
+                        </div>
+                        <div class="streak-label">
+                            Streak
+                        </div>
+
+                    </div>
+                    <div class="graph-label-container">
+                        <div class="label-item-left">
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    BMI (Body Mass Index)
+                                </span>
+                            </div>
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    BMR (Basal Metabolic Rate)
+                                </span>
+                            </div>
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    WHTR (Waist-to-height Ratio)
+                                </span>
+                            </div>
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    Daily Water Intake
+                                </span>
+                            </div>
+                        </div>
+                        <div class="label-item-right">
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    Calorie Burn
+                                </span>
+                            </div>
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    Sleep Quality
+                                </span>
+                            </div>
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    Health Risk
+                                </span>
+                            </div>
+                            <div class="label-item">
+
+                                <span class="label-item-color"></span>
+
+                                <span class="label-item-text">
+                                    Diet
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+
+
+            </div>
+            <div class="best-performance-day">
+                <div class="best-performance-chart">
+                    <canvas class="canaPie" ></canvas>
+                </div>
+                <div class="best-performacnce-description">
+                    <div class="best-performed-day-name">Friday</div>
+                    <div class="best-performed-day-label">Best score in this Week</div>
+                    <div class="best-performed-day-msg">Great job this week, especially on Friday—you gave your best
+                        effort! Keep it up, and remember to stay honest with your checklist</div>
+                </div>
+            </div>
+
+            <div class="performance-week">
+                <div class="performance-week-header">
+                    <div class="performance-week-main-head">Performance this Week</div>
+                    <div class="performance-week-subHead">Here’s how you performed this week!</div>
+                    <div class="performance-week-disclaimer">The graphs below do not reflect your current health status but indicate your progress in improving each health parameter. Higher values mean better progress!</div>
+                </div>
+                <div class="performance-week-charts">
+                    <div class="performance-week-charts-item">
+                        <canvas id="Yesterday-1">
+
+                        </canvas>
+                    </div>
+                    <div class="performance-week-charts-item">
+                        <canvas id="Yesterday-2"></canvas>
+                    </div>
+                    <div class="performance-week-charts-item">
+                        <canvas id="Yesterday-3"></canvas>
+                    </div>
+                    <div class="performance-week-charts-item">
+                        <canvas id="Yesterday-4"></canvas>
+                    </div>
+                    <div class="performance-week-charts-item">
+                        <canvas id="Yesterday-5"></canvas>
+                    </div>
+                    <div class="performance-week-charts-item">
+                        <canvas id="Yesterday-6"></canvas>
+                    </div>
+                    <div class="performance-week-charts-item">
+                        <canvas id="Yesterday-7"></canvas>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <footer>
+
+            <img src="https://res.cloudinary.com/aarzooray/image/upload/v1723847905/HealZenic/media/banner/bnnr5vfo4u1okwwobvpf"
+                alt="Healzenic banner not displayed">
+        </footer>
+
+    </main>
+
+
+    <!-- !JS Files Insertion -->
+    <script src="../weekPerformancePage/weekPerformance.js"></script>
+    <script src="../homepage/homepage.js"></script>
+
+
+
+</body>
+
+</html>
